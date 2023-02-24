@@ -87,9 +87,15 @@ a{
     font-family: 'Roboto', sans-serif;      
     transition: 0.4s;
 }
-.navLink:hover{
+.navLink:hover,:focus{
     color: #ffbf00;
     cursor: pointer;
+    
+    border-bottom: 1.25px solid #ffbf00;
+ 
+}
+.navTitle:hover, :focus{
+    border-bottom: none;
 }
 
 @media only screen and (max-width: 600px) {

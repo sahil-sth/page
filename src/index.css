@@ -111,12 +111,6 @@ nav li{
   margin-bottom: 1em;
 }
 
-/* hover effects for the links */
-nav a:hover,
-nav a:focus{
-  border-bottom: 1.25px solid #999793;
-  color: white;
-}
 
 /* ====for animation====== */
 #rectangle{
