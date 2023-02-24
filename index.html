@@ -7,24 +7,29 @@
     <!-- for the font -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="src/index.css"/>
+    <link rel="stylesheet" href="src/menu.css"/>
+    
   </head>
   <body>
     <header>
-      <h1>Sahil Shrestha</h1>
-      <nav class="nav-bar">
-        <a href="#" class="toggle-button">
-          <span class="bar"> </span>
-          <span class="bar"> </span>
-          <span class="bar"> </span>
-        </a>
-        <ul class="nav-bar-links">
-          <li><a href="#home"><span>H</span>ome</a></li>
-          <li><a href="#work"><span>A</span>bout <span>m</span>e</a></li>
-          <li><a href="#contact_info"><span>C</span>ontact</a></li>
-        </ul>
+      <nav class="navBar">
+          <a class="navTitle navLink" href="index.html">Sahil Shrestha</a>
+          <ul class="navMenu">
+              <li><a class="navLink" href="index.html">Home</a></li>
+              <li><a class="navLink" href="#aboutMe">About</a></li>
+              <li><a class="navLink" href="#contactMe">Contact me</a></li>
+          </ul>
+          <button class="hamburger">
+              <div class="bar"></div>
+          </button>
       </nav>
-    </header>
+  </header>
+  <ul class="mobileNavMenu">
+      <li><a class="navLink" href="index.html">Home</a></li>
+      <li><a class="navLink" href="#aboutMe">About</a></li>
+  </ul>
+  
     <div class="container">
       <div class="container-info">
         <aside id="my_info">
@@ -42,7 +47,7 @@
       <!-- <div class="shape_container">
         <img src="img/shape.png" alt="shape"/>
       </div> -->
-      <div class="info" id="work">
+      <div class="info" id="aboutMe">
         <h1>About me</h1>
         <p>Currently, I am pursuing Bachelors in Computer Science. I have been involved in few small projects during my leisure time. I have been trained to work with website developmet, database development, Java, and Software Engineering.</p>
       </div>
@@ -50,7 +55,7 @@
       <div id="rectangle">
       </div>
 
-      <div class="info" id="contact_info">
+      <div class="info" id="contactMe">
         <h1>Contact Information</h1>
         <p>Email: sahil.sth99@gmail.com</p>
       </div>
@@ -61,5 +66,6 @@
         <img src="img/shape.png" alt="shape"/>
       </div> -->
       <script src="script_burger_menu.js"></script>
+      <script src="src/menu.js"></script>
   </body>
 </html>
