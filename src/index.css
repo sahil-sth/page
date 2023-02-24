@@ -15,12 +15,6 @@ header h1{
 nav li{
   list-style: none;
 }
-nav a{
-  color: #999793;
-  text-decoration: none;
-  font-size: 1.15rem;
-  font-family: 'Roboto', sans-serif;
-}
 
 aside h1{
   font-size: 3rem;

@@ -6,8 +6,9 @@
 header{
     /* background-color: #353535; */
     margin-top:0px;
-    background-color: #332e2e;
-    border-bottom: 1px solid gray;
+    /* background-color: #332e2e; */
+    background-color: #222222;
+    /* border-bottom: 1px solid gray; */
 }
 li{
     list-style: none;
@@ -80,18 +81,16 @@ a{
     align-items: center;
 }
 .navLink{
+    color: #d9d9d9;
+    text-decoration: none;
+    font-size: 1.15rem;
+    font-family: 'Roboto', sans-serif;      
     transition: 0.4s;
 }
 .navLink:hover{
-    color: #00b7ff;
+    color: #ffbf00;
     cursor: pointer;
 }
-.navTitle{
-
-    font-size: 18px;
-    font-family:"Times New Roman", Times, serif;
-}
-
 
 @media only screen and (max-width: 600px) {
     .hamburger{
