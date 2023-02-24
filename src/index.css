@@ -94,9 +94,8 @@ nav li{
   width: 100%;
 }
 .container-image{
-  min-width: 190px;
-  margin-left: 12%;
-  width: 20%;
+  width: 50%;
+  max-width: 350px;
   /*border: 1px solid magenta;*/
 }
 #my_info{
@@ -131,29 +130,22 @@ nav a:focus{
   100%{background-color: #635e4e;}
 }
 /* =======Animation ENDS===== */
-@media only screen and (max-width:540px){
-  /* In this screen we enable hamburger and disable the viewing of the buttons */
-  nav ul{
-    display:none;
-  }
 
-  .toggle-button{
-    display: flex;
-  }
+@media only screen and (max-width:600px){
+  
 
-  .active{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+
 
   .container-info{
     flex-direction: column;
     align-items: center;
+    gap: 10px;
+
   }
   .container-image{
     margin-left: 0;
     width: 100%;
+    max-width: none;
   }
   /* ======Typography====== */
   aside h1{
